@@ -1,7 +1,7 @@
 variable "number_of_resources" {
   description = "Number of test resources to create from ServiceNow"
   type        = number
-  default     = 6
+  default     = 4
 }
 
 resource "null_resource" "servicenow_test" {
